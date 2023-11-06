@@ -1,0 +1,172 @@
+/**
+ * @name Google Chrome
+ * @author Andres Studies
+ * @version 1.0.0
+ * @description Google Chrome.theme. by Andres Studies
+ * @source https://github.com/AndresStudies51
+*/
+
+/* #  Plugin Fixes/Edits  # */
+/* Uncomment a plugin Import URL if you use a plugin that's listed here */
+
+@import url('https://adaelynxiv.github.io/RoundedDark/src/roundeddark.css');
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+
+/*
+	!!READ THIS!!
+	
+	This theme lets you swap the default emojis of discord with the emojis of a provider of your choice.
+	To change the provider simply swap the marked word in the import url down below with a supported provider listed below.
+	The name of the provider is CASE SENSITIVE, meaning you have to write it exactly like it's written below.
+	Correct: Apple
+	False: apple, APPLE, aPpLe
+	
+	Supported Providers:
+		→ Apple
+		→ Facebook
+		→ Google
+		→ JoyPixels
+		→ Microsoft
+		→ OpenMoji
+		→ Samsung
+		→ Toss
+		→ WhatsApp
+*/
+
+/*																				  REPLACE THIS		*/
+/*																					 ↓↓↓↓↓			*/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/JoyPixels.css);
+/*																					 ↑↑↑↑↑		  	*/
+/*																				  REPLACE THIS		*/
+
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
+
+/* #  Plugin Fixes/Edits  # */
+/* Uncomment a plugin Import URL if you use a plugin that's listed here */
+
+/* Channel Tabs: */
+/*@import url('https://adaelynxiv.github.io/RoundedDark/src/plugins/channeltabs.css');*/
+
+/* Customizable Variables */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
+
+:root {
+  --TB-header-padding: 125px;
+}
+.platform-win .typeWindows__5fa63 {
+  height: var(--TB-bar-height, 9px);
+  margin-top: 0;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 100%;
+  background: transparent;
+}
+.platform-win .winButtonClose__73489 {
+  border-top-right-radius: var(--TB-tr-roundness);
+}
+.platform-win .winButton__88672 {
+  position: relative;
+  top: calc(var(--TB-position-top, 0px) - 1px);
+  right: var(--TB-position-right, 0px);
+  height: var(--TB-height, 48px);
+  width: var(--TB-width, 40px);
+}
+.platform-win .winButton__88672:not(.winButtonClose__73489):hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.platform-win .container__11d72 {
+  padding-right: var(--TB-header-padding);
+}
+.platform-win .wordmarkWindows__05c46 {
+  display: none;
+}
+.platform-win #app-mount.bd-detached-editor .winButton__88672 {
+  right: 30%;
+}
+.platform-win .closeButton_ffc97a {
+  right: unset;
+  left: 0;
+}
+.platform-win #app-mount .typeWindows__5fa63::before {
+  content: none !important;
+}
+
+:root {
+    --font-display: var(--font-primary) !important;
+    --backdrop: rgba(0,0,0,.3);
+    --settings-min-height: 450px;
+    --settings-max-height: 650px;
+    --settings-min-width: 960px;
+    --settings-max-width: 960px;
+
+    /* Overriding Discord Defaults */
+    --background-primary: var(--lightgrey);
+    --background-tertiary: var(--darkgrey);
+    --primary-dark-630: var(--grey);
+
+    --scrollbar-thin-thumb: var(--darkgrey);
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: var(--darkgrey);
+    --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-thumb: var(--darkgrey);
+    --scrollbar-auto-scrollbar-color-track: transparent;
+}
+
+/* Coloured Folder Icons by CapnKitten (Gibbu#1211 edit)*/
+/* If you wish to remove the Folder Icons; or if it breaks one of your plug-ins, remove everything under here: */
+.closedFolderIconWrapper-3tRb2d {
+    display: none;
+}
+.folderIconWrapper-1oRIZr:not([style=""])::before {
+    position: absolute;
+    content: "";
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: inherit;
+    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
+    transform: scale(1.3335);
+    filter: brightness(1.5) saturate(1.5);
+}
+
+.platform-win .typeWindows-2-g3UY {
+    top: 13px;
+    left: -11px;
+}
+#channelTabs-container{padding:7px;}
+.chat-2ZfjoI, .sidebar-1tnWFu{margin-top:var(--spacing);}
+.wrapper-1_HaEi{margin-top:var(--spacing);}
+.app-2CXKsg{background:var(--blurple);}
+#channelTabs-container{
+    border-radius:var(--radius);
+    margin-bottom:calc(var(--spacing) - 2px);
+    padding:6px!important;
+}
+#channelTabs-settingsMenu{
+    margin-right:15px!important;
+    right: 110px!important;
+    top: 6px!important;
+}
+.platform-win .winButton-3UMjdg {
+    border-radius:var(--radius);
+    height:40px!important;
+}
+.platform-win .container-ZMc96U {padding-right:8px;}
+.channelTabs-tabContainer{max-width:85vw}
+
+.platform-win .typeWindows-2-g3UY {
+	top:0px!important;
+	height:25px!important;
+	left: calc((var(--spacing) - var(--spacing)) - (var(--spacing) + 11px));
+}
+.platform-win .winButtonClose-3Q8ZH5, .winButtonMinMax-3RsPUg{
+    top: calc(var(--spacing) + 2px)!important;
+}   
